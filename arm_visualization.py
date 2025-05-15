@@ -83,7 +83,7 @@ def init_animation_artists(passed_controller: 'UArmMimicController'):
     initial_pose_viz = passed_controller.human_pose_sequence_for_viz[0]
     human_full_scatter_viz = ax_anim_viz.scatter(
         initial_pose_viz[:, 0], initial_pose_viz[:, 1], initial_pose_viz[:, 2],
-        s=15, c='gray', alpha=0.6, label='Full Human (Pinned)'
+        s=25, c='blue', alpha=0.6, label='Full Human (Pinned)'
     )
     human_full_lines_viz.clear()  # Ensure list is empty before repopulating
     for i in range(initial_pose_viz.shape[0]):

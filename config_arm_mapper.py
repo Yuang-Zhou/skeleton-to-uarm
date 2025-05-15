@@ -21,8 +21,8 @@ TRACKED_ARM = 'right'
 UARM_SERIAL_PORT = '/dev/cu.usbmodem144301' # !!! USER: MODIFY THIS !!!
 
 # uArm operational speeds
-INITIAL_UARM_RESET_SPEED = 3000  # mm/min, for resetting the arm
-MOVEMENT_SPEED_MMPM = 7000       # mm/min, for general set_position commands
+INITIAL_UARM_RESET_SPEED = 1300000  # mm/min, for resetting the arm
+MOVEMENT_SPEED_MMPM = 1700000       # mm/min, for general set_position commands
 WRIST_SPEED_DEGPM = 1200         # deg/min, for set_wrist commands
 
 # Mapping parameters from human motion to uArm space
@@ -42,7 +42,7 @@ FALLBACK_SCALE_FACTOR_M_TO_MM = 180.0
 UARM_SHOULDER_ORIGIN_OFFSET = np.array([0.0, 0.0, 20.0]) # (mm) Example: X=100, Y=0, Z=150 in SDK CS
 
 # Target frames per second for sending commands to uArm and for animation updates
-TARGET_FPS = 25
+TARGET_FPS = 60
 
 # Trail lengths for visualization
 UARM_TARGET_TRAIL_LENGTH = 60  # Number of past uArm target points to display

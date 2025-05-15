@@ -44,12 +44,13 @@ except NameError as e: # Catch if _sdk_actual_path was not defined due to path i
 # --- uArm 配置 ---
 # !!! 关键: 请替换为你的uArm实际串口号 !!!
 # macOS 示例: '/dev/cu.usbmodemXXXXX' 或 '/dev/tty.usbmodemXXXXX'
+# macOS 示例: '/dev/cu.usbmodemXXXXX' 或 '/dev/tty.usbmodemXXXXX'
 # Windows 示例: 'COMX' (例如 'COM3')
 # Linux 示例: '/dev/ttyACMX' 或 '/dev/ttyUSBX'
 UARM_SERIAL_PORT = '/dev/cu.usbmodem144301' # <--- 请务必修改这里! 如果设为None，SDK会尝试自动检测
 
-DEFAULT_MOVE_SPEED_MMPM = 1500  # 测试时移动速度 (mm/min) - 调低以确保安全
-DEFAULT_RESET_SPEED_MMPM = 3000 # 重置时速度 (mm/min)
+DEFAULT_MOVE_SPEED_MMPM = 1500000  # 测试时移动速度 (mm/min) - 调低以确保安全
+DEFAULT_RESET_SPEED_MMPM = 13000 # 重置时速度 (mm/min)
 
 # 定义一个大致的归位/安全位置 (uArm Swift Pro重置后通常在此位置附近)
 # SDK坐标系: X向前, Y向上, Z向右

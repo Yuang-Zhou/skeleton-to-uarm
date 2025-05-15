@@ -141,8 +141,10 @@ A Matplotlib window should appear showing the 3D visualization, and if the uArm 
 
 ---
 <p align="center">
-  <strong><i>(Screenshot of the 3D Visualization)</i></strong>
+  <p align="center">
+  <img src="./docs/images/visualize.png" alt="Visualization Screenshot" width="600"/>
 </p>
+
 ---
 
 ## 💡 Kinematic Mapping and Coordinate Systems

@@ -1,4 +1,4 @@
-# UPenn ESE650 Project: Real-time Human Arm Motion to uArm Swift Pro Mimicry
+# Real-time Human Arm Motion to uArm Swift Pro Mimicry
 
 ## 🌟 Project Overview
 

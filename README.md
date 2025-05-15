@@ -8,7 +8,7 @@ This project, developed as part of ESE650, translates 3D human arm motion data i
 
 ---
 <p align="center">
-  <strong><i>(Demo GIF/Image: uArm mimicking human motion with 3D visualization)</i></strong>
+  <img src="./docs/video1.gif" alt="Demo Animation" width="600"/>
 </p>
 ---
 
@@ -142,7 +142,7 @@ A Matplotlib window should appear showing the 3D visualization, and if the uArm 
 ---
 <p align="center">
   <p align="center">
-  <img src="./docs/images/visualize.png" alt="Visualization Screenshot" width="600"/>
+  <img src="./docs/visualize.png" alt="Visualization Screenshot" width="600"/>
 </p>
 
 ---
